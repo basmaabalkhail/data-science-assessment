@@ -8,4 +8,4 @@ SELECT
 FROM investor_transactions it
 JOIN sectors s 
     ON it.sector_id = s.sector_id
-ORDER BY it.investor_id, share_percentage 
+ORDER BY it.investor_id, s.sector_name 
